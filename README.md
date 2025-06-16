@@ -22,21 +22,6 @@ This repository contains a **full-stack recommender pipeline** that crawls cours
 
 ---
 
-## 🗂 Repository Structure
-```text
-outputs/
-plots/                 # auto-generated figures for README / report
-src/
- ├── collection/
- ├── eda/
- ├── features/
- ├── content_based/
- ├── collaborative/
- └── hybrid/
-app.py                 # web/API server
-main.py                # CLI entry-point
-requirements.txt
-README.md
 
 ## 📊 Results & Artifacts
 
