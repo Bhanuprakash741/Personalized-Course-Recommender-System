@@ -1,0 +1,17 @@
+// content_based_user_profile_flowchart
+digraph {
+	rankdir=LR
+	"Raw Data" [label="Raw Data" fillcolor=lightblue shape=box style=filled]
+	"Cleaned Data" [label="Cleaned Data" fillcolor=lightblue shape=box style=filled]
+	"Data Processing" [label="Data Processing" fillcolor=lightblue shape=box style=filled]
+	"Feature Engineering" [label="Feature Engineering" fillcolor=lightblue shape=box style=filled]
+	"User Profiles" [label="User Profiles" fillcolor=lightblue shape=box style=filled]
+	"Course Genres" [label="Course Genres" fillcolor=lightblue shape=box style=filled]
+	Recommend [label=Recommend fillcolor=lightblue shape=box style=filled]
+	"Raw Data" -> "Cleaned Data"
+	"Cleaned Data" -> "Data Processing"
+	"Data Processing" -> "Feature Engineering"
+	"Feature Engineering" -> "User Profiles"
+	"User Profiles" -> Recommend
+	"Course Genres" -> Recommend
+}
