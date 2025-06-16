@@ -66,5 +66,5 @@ This repository contains a **full-stack recommender pipeline** that crawls cours
 ---
 ### 🖼️ Demo UI
 - Screenshot / GIF of the Streamlit app showing **top-10 course suggestions** for a sample user
-- !(Path/Streamlit.png)
+  ![Streamlit demo](Plots/Streamlit.png)
 
